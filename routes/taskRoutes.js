@@ -9,5 +9,4 @@ const {
 router.post("/tasks", createTask);
 router.get("/tasks", getTasks);
 router.post("/tasks/check", createTaskWithCheck);
-
 module.exports = router;
